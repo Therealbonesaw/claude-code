@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no"
+    />
+    <meta name="theme-color" content="#111111" id="theme-color" />
+    <title>Hot Potato</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-screen="lobby">
+    <main id="lobby" class="screen">
+      <h1>Hot Potato</h1>
+      <p class="tagline">Pass the turn around the table.</p>
+
+      <label class="field">
+        <span>Your name</span>
+        <input
+          id="name"
+          type="text"
+          autocomplete="given-name"
+          maxlength="24"
+          placeholder="e.g. Alex"
+        />
+      </label>
+
+      <button id="create-btn" class="primary">Create room</button>
+
+      <div class="divider"><span>or</span></div>
+
+      <label class="field">
+        <span>Room code</span>
+        <input
+          id="code"
+          type="text"
+          inputmode="latin"
+          autocapitalize="characters"
+          maxlength="4"
+          placeholder="ABCD"
+        />
+      </label>
+      <button id="join-btn">Join room</button>
+
+      <p id="lobby-error" class="error" role="alert"></p>
+    </main>
+
+    <main id="room" class="screen" hidden>
+      <header class="room-header">
+        <div>
+          <div class="label">Room</div>
+          <div class="room-code" id="room-code">----</div>
+        </div>
+        <button id="leave-btn" class="ghost">Leave</button>
+      </header>
+
+      <section class="players">
+        <h2>Players (<span id="player-count">0</span>)</h2>
+        <ul id="player-list"></ul>
+      </section>
+
+      <div id="waiting" class="waiting">
+        <p id="waiting-text">Waiting for the host to start.</p>
+        <button id="start-btn" class="primary" hidden>Start game</button>
+      </div>
+    </main>
+
+    <main id="game" class="screen" hidden>
+      <div class="game-inner">
+        <div class="turn-info">
+          <div class="label" id="turn-label">It's your turn</div>
+          <div class="turn-name" id="turn-name">—</div>
+        </div>
+
+        <button id="pass-btn" class="pass">PASS</button>
+
+        <div class="next-up">
+          Next: <span id="next-name">—</span>
+        </div>
+
+        <div class="host-controls">
+          <button id="skip-btn" class="ghost" hidden>Skip current player</button>
+          <button id="reset-btn" class="ghost" hidden>End game</button>
+        </div>
+      </div>
+    </main>
+
+    <div id="connection" class="connection" hidden>Reconnecting…</div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
