@@ -12,12 +12,12 @@
         "android": "ca-app-pub-3381371694059037~1973229668"
       },
       "interstitialAdId": {
-        "ios": "ca-app-pub-XXXXXXXXXXXXXXXXXXXX/XXXXXXXXXX",
-        "android": "ca-app-pub-XXXXXXXXXXXXXXXXXXXX/XXXXXXXXXX"
+        "ios": "ca-app-pub-3381371694059037/9232772588",
+        "android": "ca-app-pub-3381371694059037/8071734151"
       },
       "bannerAdId": {
-        "ios": "ca-app-pub-XXXXXXXXXXXXXXXXXXXX/XXXXXXXXXX",
-        "android": "ca-app-pub-XXXXXXXXXXXXXXXXXXXX/XXXXXXXXXX"
+        "ios": "ca-app-pub-3381371694059037/4905343903",
+        "android": "ca-app-pub-3381371694059037/9826498098"
       }
     },
     "SplashScreen": {
