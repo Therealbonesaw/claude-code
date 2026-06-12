@@ -1,7 +1,7 @@
 {
   "appId": "com.yourname.skydash",
   "appName": "Sky Dash",
-  "webDir": ".",
+  "webDir": "www",
   "server": {
     "androidScheme": "https"
   },
