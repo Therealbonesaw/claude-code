@@ -1,0 +1,32 @@
+{
+  "appId": "com.yourname.skydash",
+  "appName": "Sky Dash",
+  "webDir": ".",
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "AdMob": {
+      "appId": {
+        "ios": "ca-app-pub-XXXXXXXXXXXXXXXXXXXX~XXXXXXXXXX",
+        "android": "ca-app-pub-XXXXXXXXXXXXXXXXXXXX~XXXXXXXXXX"
+      },
+      "interstitialAdId": {
+        "ios": "ca-app-pub-XXXXXXXXXXXXXXXXXXXX/XXXXXXXXXX",
+        "android": "ca-app-pub-XXXXXXXXXXXXXXXXXXXX/XXXXXXXXXX"
+      },
+      "bannerAdId": {
+        "ios": "ca-app-pub-XXXXXXXXXXXXXXXXXXXX/XXXXXXXXXX",
+        "android": "ca-app-pub-XXXXXXXXXXXXXXXXXXXX/XXXXXXXXXX"
+      }
+    },
+    "SplashScreen": {
+      "launchShowDuration": 1000,
+      "backgroundColor": "#1a1a2e"
+    },
+    "StatusBar": {
+      "style": "dark",
+      "backgroundColor": "#1a1a2e"
+    }
+  }
+}
