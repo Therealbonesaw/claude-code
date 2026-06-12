@@ -8,8 +8,8 @@
   "plugins": {
     "AdMob": {
       "appId": {
-        "ios": "ca-app-pub-XXXXXXXXXXXXXXXXXXXX~XXXXXXXXXX",
-        "android": "ca-app-pub-XXXXXXXXXXXXXXXXXXXX~XXXXXXXXXX"
+        "ios": "ca-app-pub-3381371694059037~6459269582",
+        "android": "ca-app-pub-3381371694059037~1973229668"
       },
       "interstitialAdId": {
         "ios": "ca-app-pub-XXXXXXXXXXXXXXXXXXXX/XXXXXXXXXX",
