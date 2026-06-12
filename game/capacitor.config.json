@@ -7,18 +7,8 @@
   },
   "plugins": {
     "AdMob": {
-      "appId": {
-        "ios": "ca-app-pub-3381371694059037~6459269582",
-        "android": "ca-app-pub-3381371694059037~1973229668"
-      },
-      "interstitialAdId": {
-        "ios": "ca-app-pub-3381371694059037/9232772588",
-        "android": "ca-app-pub-3381371694059037/8071734151"
-      },
-      "bannerAdId": {
-        "ios": "ca-app-pub-3381371694059037/4905343903",
-        "android": "ca-app-pub-3381371694059037/9826498098"
-      }
+      "appIdAndroid": "ca-app-pub-3381371694059037~1973229668",
+      "appIdIos": "ca-app-pub-3381371694059037~6459269582"
     },
     "SplashScreen": {
       "launchShowDuration": 1000,

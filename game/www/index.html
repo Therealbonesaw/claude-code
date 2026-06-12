@@ -57,7 +57,7 @@
 
           // Prepare interstitial ahead of time
           await admob.prepareInterstitial({
-            adId: window._admobInterstitialId || 'ca-app-pub-3940256099942544/1033173712' // test ID
+            adId: 'ca-app-pub-3381371694059037/8071734151'
           });
         } catch {
           // Running in browser preview — no-op
@@ -68,7 +68,7 @@
         if (!admob) return;
         try {
           await admob.showBanner({
-            adId: window._admobBannerId || 'ca-app-pub-3940256099942544/6300978111',
+            adId: 'ca-app-pub-3381371694059037/9826498098',
             adSize: 'BANNER',
             position: 'BOTTOM_CENTER'
           });
@@ -83,7 +83,7 @@
           await admob.showInterstitial();
           // Re-prepare for next time
           await admob.prepareInterstitial({
-            adId: window._admobInterstitialId || 'ca-app-pub-3940256099942544/1033173712'
+            adId: 'ca-app-pub-3381371694059037/8071734151'
           });
         } catch {}
       }
