@@ -51,7 +51,7 @@
 
       async function init() {
         try {
-          const { AdMob } = await import('./node_modules/@capacitor/admob/dist/esm/index.js');
+          const { AdMob } = await import('./node_modules/@capacitor-community/admob/dist/esm/index.js');
           admob = AdMob;
           await admob.initialize({ testingDevices: [], initializeForTesting: false });
 

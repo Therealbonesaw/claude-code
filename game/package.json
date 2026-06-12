@@ -11,7 +11,7 @@
     "cap:open:android": "npx cap open android"
   },
   "dependencies": {
-    "@capacitor/admob": "^6.0.0",
+    "@capacitor-community/admob": "^6.0.0",
     "@capacitor/android": "^6.0.0",
     "@capacitor/app": "^6.0.0",
     "@capacitor/core": "^6.0.0",
